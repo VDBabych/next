@@ -1,0 +1,18 @@
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    composes: flex;
+    justify-content: space-between;
+}
+
+.link_list {
+    composes: flex;
+    gap: 10px;
+}
+
+.active{
+    background-color: yellow;
+}
